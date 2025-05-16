@@ -3,27 +3,34 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="shortcut icon" href="../turbo.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../turbo.ico" type="image/x-icon" />
   <title>Ferrari SF90 Stradale - TurboBlog</title>
-  <link rel="stylesheet" href="../artigos CSS/artigoFerrari.css">
+
+  <!-- Link para o CSS externo -->
+  <link rel="stylesheet" href="../artigos CSS/artigoFerrari.css" />
 </head>
 
 <body>
+  <!-- Cabeçalho com o nome do blog e navegação -->
   <header>
     <h1>TurboBlog</h1>
     <div class="navbar">
-      <a href="../index.html">Início</a>
-      <a href="../index.html">Destaques</a>
-      <a href="../index.html">Artigos</a>
-      <a href="../index.html">Sobre</a>
+        <a href="../index.html">Início</a>
+        <a href="../index.html">Destaques</a>
+        <a href="../index.html">Artigos</a>
+        <a href="../index.html">Sobre</a>
     </div>
   </header>
 
+  <!-- Conteúdo principal -->
   <main>
     <h2>Ferrari SF90 Stradale</h2>
+
+    <!-- Imagem principal em destaque -->
     <img src="../img/sf90.jpg" alt="Ferrari SF90 Stradale" width="100%" />
 
+    <!-- Parágrafos de texto sobre o carro -->
     <p>
       A Ferrari SF90 Stradale representa a fusão entre desempenho extremo e inovação tecnológica. Com seu motor V8 biturbo aliado a três motores elétricos, ela entrega impressionantes 1.000 cv de potência, tornando-se um dos modelos mais potentes da marca italiana.
     </p>
@@ -36,21 +43,57 @@
       A aceleração de 0 a 100 km/h é feita em apenas 2,5 segundos, consolidando seu lugar entre os supercarros mais rápidos do mundo. A SF90 também é o primeiro modelo híbrido plug-in da Ferrari com tração nas quatro rodas.
     </p>
 
+    <!-- Título da galeria -->
     <h3>Galeria de Imagens</h3>
-    <div style="overflow-x: auto;">
-      <img src="../imgFerrari/ferrari1.jpg" alt="Imagem Ferrari 1">
-      <img src="../imgFerrari/ferrari2.jpg" alt="Imagem Ferrari 2">
-      <img src="../imgFerrari/ferrari3.jpg" alt="Imagem Ferrari 3">
-      <img src="../imgFerrari/ferrari4.jpg" alt="Imagem Ferrari 4">
-      <img src="../imgFerrari/ferrari5.jpg" alt="Imagem Ferrari 5">
-      <img src="../imgFerrari/ferrari6.jpg" alt="Imagem Ferrari 6">
+
+    <!-- Carrossel horizontal com imagens clicáveis -->
+    <div class="galeria">
+        <a href="#img1"><img src="../imgFerrari/ferrari1.jpg" alt="Imagem Ferrari 1" /></a>
+        <a href="#img2"><img src="../imgFerrari/ferrari2.jpg" alt="Imagem Ferrari 2" /></a>
+        <a href="#img3"><img src="../imgFerrari/ferrari3.jpg" alt="Imagem Ferrari 3" /></a>
+        <a href="#img4"><img src="../imgFerrari/ferrari4.jpg" alt="Imagem Ferrari 4" /></a>
+        <a href="#img5"><img src="../imgFerrari/ferrari5.jpg" alt="Imagem Ferrari 5" /></a>
+        <a href="#img6"><img src="../imgFerrari/ferrari6.jpg" alt="Imagem Ferrari 6" /></a>
+    </div>
+
+    <!-- Estrutura de Lightbox para ampliar as imagens -->
+    <div id="img1" class="lightbox">
+        <a href="#" class="fechar">&times;</a>
+        <img src="../imgFerrari/ferrari1.jpg" alt="Imagem Ampliada" />
+    </div>
+
+    <div id="img2" class="lightbox">
+        <a href="#" class="fechar">&times;</a>
+        <img src="../imgFerrari/ferrari2.jpg" alt="Imagem Ampliada" />
+    </div>
+
+    <div id="img3" class="lightbox">
+        <a href="#" class="fechar">&times;</a>
+        <img src="../imgFerrari/ferrari3.jpg" alt="Imagem Ampliada" />
+    </div>
+
+    <div id="img4" class="lightbox">
+        <a href="#" class="fechar">&times;</a>
+        <img src="../imgFerrari/ferrari4.jpg" alt="Imagem Ampliada" />
+    </div>
+
+    <div id="img5" class="lightbox">
+        <a href="#" class="fechar">&times;</a>
+        <img src="../imgFerrari/ferrari5.jpg" alt="Imagem Ampliada" />
+    </div>
+    
+    <div id="img6" class="lightbox">
+        <a href="#" class="fechar">&times;</a>
+        <img src="../imgFerrari/ferrari6.jpg" alt="Imagem Ampliada" />
     </div>
   </main>
 
+  <!-- Rodapé do site -->
   <footer>
-    <p>&copy; 2025 TurboBlog. Todos os direitos reservados.</p>
-    <p>Contato: contato@turboblog.com</p>
+      <p>&copy; 2025 TurboBlog. Todos os direitos reservados.</p>
+      <p>Contato: contato@turboblog.com</p>
   </footer>
+
 </body>
 
 </html>
