@@ -14,7 +14,9 @@
 <body>
   <!-- Cabeçalho com o nome do blog e navegação -->
   <header>
-    <h1>TurboBlog</h1>
+    <a href="../index.html">
+      <h1>TurboBlog</h1>
+    </a>
     <div class="navbar">
         <a href="../index.html">Início</a>
         <a href="../index.html">Destaques</a>
@@ -43,48 +45,43 @@
       A aceleração de 0 a 100 km/h é feita em apenas 2,5 segundos, consolidando seu lugar entre os supercarros mais rápidos do mundo. A SF90 também é o primeiro modelo híbrido plug-in da Ferrari com tração nas quatro rodas.
     </p>
 
-    <!-- Título da galeria -->
-    <h3>Galeria de Imagens</h3>
-
-    <!-- Carrossel horizontal com imagens clicáveis -->
-    <div class="galeria">
-        <a href="#img1"><img src="../imgFerrari/ferrari1.jpg" alt="Imagem Ferrari 1" /></a>
-        <a href="#img2"><img src="../imgFerrari/ferrari2.jpg" alt="Imagem Ferrari 2" /></a>
-        <a href="#img3"><img src="../imgFerrari/ferrari3.jpg" alt="Imagem Ferrari 3" /></a>
-        <a href="#img4"><img src="../imgFerrari/ferrari4.jpg" alt="Imagem Ferrari 4" /></a>
-        <a href="#img5"><img src="../imgFerrari/ferrari5.jpg" alt="Imagem Ferrari 5" /></a>
-        <a href="#img6"><img src="../imgFerrari/ferrari6.jpg" alt="Imagem Ferrari 6" /></a>
-    </div>
+    <main id="Galeria">
+      <!-- Título da galeria -->
+      <h3>Galeria de Imagens</h3>
+      <!-- Carrossel horizontal com imagens clicáveis -->
+      <div class="galeria">
+          <a href="#img1"><img src="../imgFerrari/ferrari1.jpg" alt="Imagem Ferrari 1" /></a>
+          <a href="#img2"><img src="../imgFerrari/ferrari2.jpg" alt="Imagem Ferrari 2" /></a>
+          <a href="#img3"><img src="../imgFerrari/ferrari3.jpg" alt="Imagem Ferrari 3" /></a>
+          <a href="#img4"><img src="../imgFerrari/ferrari4.jpg" alt="Imagem Ferrari 4" /></a>
+          <a href="#img5"><img src="../imgFerrari/ferrari5.jpg" alt="Imagem Ferrari 5" /></a>
+      </div>
+    </main>
 
     <!-- Estrutura de Lightbox para ampliar as imagens -->
     <div id="img1" class="lightbox">
-        <a href="#" class="fechar">&times;</a>
+        <a href="#Galeria" class="fechar">&times;</a>
         <img src="../imgFerrari/ferrari1.jpg" alt="Imagem Ampliada" />
     </div>
 
     <div id="img2" class="lightbox">
-        <a href="#" class="fechar">&times;</a>
+        <a href="#Galeria" class="fechar">&times;</a>
         <img src="../imgFerrari/ferrari2.jpg" alt="Imagem Ampliada" />
     </div>
 
     <div id="img3" class="lightbox">
-        <a href="#" class="fechar">&times;</a>
+        <a href="#Galeria" class="fechar">&times;</a>
         <img src="../imgFerrari/ferrari3.jpg" alt="Imagem Ampliada" />
     </div>
 
     <div id="img4" class="lightbox">
-        <a href="#" class="fechar">&times;</a>
+        <a href="#Galeria" class="fechar">&times;</a>
         <img src="../imgFerrari/ferrari4.jpg" alt="Imagem Ampliada" />
     </div>
 
     <div id="img5" class="lightbox">
-        <a href="#" class="fechar">&times;</a>
+        <a href="#Galeria" class="fechar">&times;</a>
         <img src="../imgFerrari/ferrari5.jpg" alt="Imagem Ampliada" />
-    </div>
-    
-    <div id="img6" class="lightbox">
-        <a href="#" class="fechar">&times;</a>
-        <img src="../imgFerrari/ferrari6.jpg" alt="Imagem Ampliada" />
     </div>
   </main>
 

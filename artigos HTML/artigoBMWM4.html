@@ -14,7 +14,9 @@
 <body>
     <!-- Cabecalho com o nome do blog e navegação -->
     <header>
-        <h1>TurboBlog</h1>
+        <a href="../index.html">
+            <h1>TurboBlog</h1>
+        </a>
         <div class="navbar">
             <a href="../index.html">Início</a>
             <a href="../index.html">Destaques</a>
@@ -47,35 +49,36 @@
             A BMW M4 Competition é mais que um carro: é uma experiência para quem ama performance sem abrir mão da sofisticação.
         </p>
 
-        <!-- Título da galeria -->
-        <h3>Galeria de Imagens</h3>
-
-        <!-- Carrossel horizontal com imagens clicáveis -->
-        <div class="galeria">
-            <a href="#img1"><img src="../imgBMW/bmw1.jpg" alt="Imagem BMW 1" /></a>
-            <a href="#img2"><img src="../imgBMW/bmw2.jpg"" alt="Imagem BMW 2" /></a>
-            <a href="#img3"><img src="../imgBMW/bmw3.jpg" alt="Imagem BMW 3" /></a>
-            <a href="#img4"><img src="../imgBMW/bmw4.jpg" alt="Imagem BMW 4"/></a>
-        </div>
+        <main id="Galeria">
+            <!-- Título da galeria -->
+            <h3>Galeria de Imagens</h3>
+            <!-- Carrossel horizontal com imagens clicáveis -->
+            <div class="galeria">
+                <a href="#img1"><img src="../imgBMW/bmw1.jpg" alt="Imagem BMW 1" /></a>
+                <a href="#img2"><img src="../imgBMW/bmw2.jpg"" alt="Imagem BMW 2" /></a>
+                <a href="#img3"><img src="../imgBMW/bmw3.jpg" alt="Imagem BMW 3" /></a>
+                <a href="#img4"><img src="../imgBMW/bmw4.jpg" alt="Imagem BMW 4"/></a>
+            </div>
+        </main>
 
         <!-- Estrutura de Lightboc para ampliar as imagens -->
         <div id="img1" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgBMW/bmw1.jpg" alt="Imagem Ampliada" />
         </div>
 
         <div id="img2" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgBMW/bmw2.jpg" alt="Imagem Ampliada" />
         </div>
 
         <div id="img3" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgBMW/bmw3.jpg" alt="Imagem Ampliada" />
         </div>
 
         <div id="img4" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgBMW/bmw4.jpg" alt="Imagem Ampliada"">
         </div>
     </main>

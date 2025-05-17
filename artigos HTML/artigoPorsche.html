@@ -14,7 +14,9 @@
 <body>
     <!-- Cabeçalho com o nome do blog e navegação -->
     <header>
-        <h1>TurboBlog</h1>
+        <a href="../index.html">
+            <h1>TurboBlog</h1>
+        </a>
         <div class="navbar">
             <a href="../index.html">Início</a>
             <a href="../index.html">Destaques</a>
@@ -47,41 +49,42 @@
             A 911 Turbo S representa décadas de evolução da engenharia alemã, sendo um dos ícones mais respeitados do automobilismo mundial. Um verdadeiro sonho sobre rodas.
         </p>
 
-        <!-- Título da galeria -->
-        <h3>Galeria de Imagens</h3>
-
-        <!-- Carrossel horizontal com imagens clicáveis -->
-        <div class="galeria">
-            <a href="#img1"><img src="../imgPorsche/porsche1.jpg" alt="Imagem Porsche 1" /></a>
-            <a href="#img2"><img src="../imgPorsche/porsche2.jpg" alt="Imagem Porsche 2" /></a>
-            <a href="#img3"><img src="../imgPorsche/porsche3.jpg" alt="Imagem Porsche 3" /></a>
-            <a href="#img4"><img src="../imgPorsche/porsche4.jpg" alt="Imagem Porsche 4" /></a>
-            <a href="#img5"><img src="../imgPorsche/porsche5.jpg" alt="Imagem Porsche 5" /></a>
-        </div>
+        <main id="Galeria">
+            <!-- Título da galeria -->
+            <h3>Galeria de Imagens</h3>
+            <!-- Carrossel horizontal com imagens clicáveis -->
+            <div class="galeria">
+                <a href="#img1"><img src="../imgPorsche/porsche1.jpg" alt="Imagem Porsche 1" /></a>
+                <a href="#img2"><img src="../imgPorsche/porsche2.jpg" alt="Imagem Porsche 2" /></a>
+                <a href="#img3"><img src="../imgPorsche/porsche3.jpg" alt="Imagem Porsche 3" /></a>
+                <a href="#img4"><img src="../imgPorsche/porsche4.jpg" alt="Imagem Porsche 4" /></a>
+                <a href="#img5"><img src="../imgPorsche/porsche5.jpg" alt="Imagem Porsche 5" /></a>
+            </div>
+        </main>
 
         <!-- Estrutura de Lightbox para ampliar as imagens -->
         <div id="img1" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgPorsche/porsche1.jpg" alt="Imagem Ampliada" />
         </div>
 
         <div id="img2" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgPorsche/porsche2.jpg" alt="Imagem Ampliada" />
         </div>
 
         <div id="img3" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgPorsche/porsche3.jpg" alt="Imagem Ampliada" />
         </div>
 
         <div id="img4" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgPorsche/porsche4.jpg" alt="Imagem Ampliada" />
         </div>
 
         <div id="img5" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgPorsche/porsche5.jpg" alt="Imagem Ampliada" />
         </div>
     </main>

@@ -14,7 +14,9 @@
 <body>
     <!-- Cabeçalho com o nome do blog e navegação -->
     <header>
-        <h1>TurboBlog</h1>
+        <a href="../index.html">
+            <h1>TurboBlog</h1>
+        </a>
         <div class="navbar">
             <a href="../index.html">Início</a>
             <a href="../index.html">Destaques</a>
@@ -47,29 +49,30 @@
             Esta versão Widebody da McLaren 650S Liberty Walk oferece a combinação perfeita entre performance extrema e um design imbatível. Um verdadeiro monstro das estradas.
         </p>
 
-        <!-- Título da galeria -->
-        <h3>Galeria de Imagens</h3>
-
-        <!-- Carrossel horizontal com imagens clicáveis -->
-        <div class="galeria">
-            <a href="#img1"><img src="../imgMcLaren/mclaren1.jpg" alt="Imagem McLaren 1" /></a>
-            <a href="#img2"><img src="../imgMcLaren/mclaren2.jpg" alt="Imagem McLaren 2" /></a>
-            <a href="#img3"><img src="../imgMcLaren/mclaren3.jpg" alt="Imagem McLaren 3" /></a>
-        </div>
+        <main id="Galeria">
+            <!-- Título da galeria -->
+            <h3>Galeria de Imagens</h3>
+            <!-- Carrossel horizontal com imagens clicáveis -->
+            <div class="galeria">
+                <a href="#img1"><img src="../imgMcLaren/mclaren1.jpg" alt="Imagem McLaren 1" /></a>
+                <a href="#img2"><img src="../imgMcLaren/mclaren2.jpg" alt="Imagem McLaren 2" /></a>
+                <a href="#img3"><img src="../imgMcLaren/mclaren3.jpg" alt="Imagem McLaren 3" /></a>
+            </div>
+        </main>
 
         <!-- Estrutura de Lightbox para ampliar as imagens -->
         <div id="img1" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgMcLaren/mclaren1.jpg" alt="Imagem Ampliada" />
         </div>
 
         <div id="img2" class="lightbox">
-                <a href="#" class="fechar">&times;</a>
-                <img src="../imgMcLaren/mclaren2.jpg" alt="Imagem Ampliada" />
+            <a href="#Galeria" class="fechar">&times;</a>
+            <img src="../imgMcLaren/mclaren2.jpg" alt="Imagem Ampliada" />
         </div>
 
         <div id="img3" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgMcLaren/mclaren3.jpg" alt="Imagem Ampliada" />
         </div>
     </main>

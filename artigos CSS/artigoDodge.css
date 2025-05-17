@@ -24,6 +24,17 @@ header {
   padding: 20px 0;
 }
 
+header a {
+  text-decoration: none;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -34,7 +45,7 @@ header {
 .navbar a {
   color: #fff;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 5px 10px;
   transition: background-color 0.3s;
 }
@@ -52,8 +63,10 @@ main {
 }
 
 main h2 {
+  color: #000;
   text-align: center;
   margin-bottom: 20px;
+  font-size: 2.3em;
 }
 
 main img {
@@ -63,15 +76,16 @@ main img {
 /* Texto */
 main p {
   margin: 15px 0;
-  font-size: 1.1em;
-  color: #444;
+  font-size: 1.4em;
+  color: #000;
 }
 
 /* Título da galeria */
 main h3 {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 10px;
-  font-size: 1.4em;
+  font-size: 1.7em;
+  color: #000;
 }
 
 /* Galeria carrossel */

@@ -14,7 +14,9 @@
 <body>
     <!-- Cabeçalho com o nome do blog e navegação -->
      <header>
-        <h1>TurboBlog</h1>
+        <a href="../index.html">
+            <h1>TurboBlog</h1>
+        </a>
         <div class="navbar">
         <a href="../index.html">Início</a>
         <a href="../index.html">Destaques</a>
@@ -47,41 +49,42 @@
             O Challenger SRT Hellcat não é apenas um carro potente — é uma declaração de rebeldia sobre rodas, feito para quem busca adrenalina, nostalgia e respeito instantâneo nas ruas.
         </p>
 
-        <!-- Título da galeria -->
-        <h3>Galeria de Imagens</h3>
-
-        <!-- Carrossel horizontal com imagens clicáveis -->
-        <div class="galeria">
-            <a href="#img1"><img src="../imgDodge/dodge1.jpg" alt="Imagem Dodge 1" /></a>
-            <a href="#img2"><img src="../imgDodge/dodge2.jpg" alt="Imagem Dodge 2" /></a>
-            <a href="#img3"><img src="../imgDodge/dodge3.jpg" alt="Imagem Dodge 3" /></a>
-            <a href="#img4"><img src="../imgDodge/dodge4.jpg" alt="Imagem Dodge 4" /></a>
-            <a href="#img5"><img src="../imgDodge/dodge5.jpg" alt="Imagem Dodge 5" /></a>
-        </div>
+        <main id="Galeria">
+            <!-- Título da galeria -->
+            <h3>Galeria de Imagens</h3>
+            <!-- Carrossel horizontal com imagens clicáveis -->
+            <div class="galeria">
+                <a href="#img1"><img src="../imgDodge/dodge1.jpg" alt="Imagem Dodge 1" /></a>
+                <a href="#img2"><img src="../imgDodge/dodge2.jpg" alt="Imagem Dodge 2" /></a>
+                <a href="#img3"><img src="../imgDodge/dodge3.jpg" alt="Imagem Dodge 3" /></a>
+                <a href="#img4"><img src="../imgDodge/dodge4.jpg" alt="Imagem Dodge 4" /></a>
+                <a href="#img5"><img src="../imgDodge/dodge5.jpg" alt="Imagem Dodge 5" /></a>
+            </div>
+        </main>
 
         <!-- Estrutura de Lightbox para ampliar as imagens -->
         <div id="img1" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgDodge/dodge1.jpg" alt="Imagem Ampliada">
         </div>
 
         <div id="img2" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgDodge/dodge2.jpg" alt="Imagem Ampliada">
         </div>
 
         <div id="img3" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgDodge/dodge3.jpg" alt="Imagem Ampliada">
         </div>
 
         <div id="img4" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
-            <img src="../imgDodge/dodge5.jpg" alt="Imagem Ampliada">
+            <a href="#Galeria" class="fechar">&times;</a>
+            <img src="../imgDodge/dodge4.jpg" alt="Imagem Ampliada">
         </div>
 
         <div id="img5" class="lightbox">
-            <a href="#" class="fechar">&times;</a>
+            <a href="#Galeria" class="fechar">&times;</a>
             <img src="../imgDodge/dodge5.jpg" alt="Imagem Ampliada">
         </div>
     </main> 
