@@ -41,7 +41,7 @@
   .navbar a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 5px 10px;
     transition: background-color 0.3s;
   }
@@ -74,11 +74,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 3ex;
+    font-size: 2.4ex;
   }
   
   .texto-destaque h2 {
-    font-size: 2.2em;
+    font-size: 2.4em;
     margin-bottom: 10px;
   }
   
@@ -112,7 +112,7 @@
   }
   
   .artigo h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     margin-top: 15px;
     color: #000;
   }
@@ -120,7 +120,7 @@
   .artigo p {
     color: #000;
     margin-top: 10px;
-    font-size: 2.5ex;
+    font-size: 2.2ex;
   }
   
   .sobre {
@@ -131,7 +131,7 @@
   }
   
   .sobre h2 {
-    font-size: 2.2em;
+    font-size: 2.1em;
     margin-bottom: 20px;
     color: #000;
   }
@@ -139,7 +139,7 @@
   .sobre p {
     max-width: 800px;
     margin: auto;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: #000;
   }
   
